@@ -1,19 +1,19 @@
 
-# duyladuykk.github.io
+# dh6k.github.io
 Trang github của tôi nói chung.
 Hiện tại không có điều gì đáng chú ý ở đây vào lúc này (thật lòng đấy)
 Tôi chỉ là một người đam mê công nghệ, và vì một vài lý do nào đó, tạo nên trang web này cho vui :)
 
 Giờ tôi đã là 1 sinh viên của [Học viện Công nghệ Bưu chính Viễn thông](https://portal.ptit.edu.vn/)
 
-### Nếu muốn coi blog thì bấm vào [đây](https://dldkk.blogspot.com) (vẫn là trang blog cũ quen thuộc thôi, chứ giờ không để link blog lên profile như trước nữa đâu).
-### Blog thứ 2: [ở đây](https://dldkk.hashnode.dev) (tạo để đó dự phòng)
+### Nếu muốn coi blog thì bấm vào [đây](https://dh6k.blogspot.com) (vẫn là trang blog cũ quen thuộc thôi, chứ giờ không để link blog lên profile như trước nữa đâu).
+### Blog thứ 2: [ở đây](https://dh6k.hashnode.dev) (tạo để đó dự phòng)
 # Các repo nổi bật của tôi:
-Lập chỉ mục Onedrive cho 1b1a6 (365 e5 dev): [ở đây](https://duyladuykk.github.io/FODI/front-end/)
+~~Lập chỉ mục Onedrive cho 1b1a6 (365 e5 dev): [ở đây](https://duyladuykk.github.io/FODI/front-end/)~~
 
-Tập tin dotfiles cá nhân cho [trình khởi chạy t-ui](https://play.google.com/store/apps/details?id=ohi.andre.consolelauncher) cho Android: [ở đây](https://duyladuykk.github.io/t-ui-dotfiles/)
+Tập tin dotfiles cá nhân cho [trình khởi chạy t-ui](https://play.google.com/store/apps/details?id=ohi.andre.consolelauncher) cho Android: [ở đây](https://dh6k.github.io/t-ui-dotfiles/)
 
-Bản lưu trữ YTV của tôi cho phiên bản 16.30.34, với m4n4g3r và m1cr0g: [ở đây](https://github.com/duyladuykk/432490279788313560182459438453/releases/)
+Bản lưu trữ YTV của tôi cho phiên bản 16.30.34, với m4n4g3r và m1cr0g: [ở đây](https://github.com/dh6k/432490279788313560182459438453/releases/)
 
 (**ko phải của tôi đâu**) Một bản lưu trữ YTV khác cho phiên bản mới nhất (Rất cảm ơn [KhanhNguyen9872](https://github.com/khanhnguyen9872) đã không uổng công lưu lại cái này): [ở đây](https://github.com/KhanhNguyen9872/0101011101010111001110010011000101100100010010000101011001101001010110100101011000111001010101110101/releases/)
 
@@ -33,11 +33,13 @@ Magisk delta để root thiết bị Android của bạn, có hỗ trợ ẩn ro
 Các file lữu trữ của Team Vanced trên Apkmirror (nơi Google *không thèm để ý mấy chứ đừng nói là bắt phải gỡ xuống* vì nó cũng có những thất bại của họ): [ở đây](https://www.apkmirror.com/apk/team-vanced/)
 
 Youtube Revanced extended, phiên bản ưu việt hơn của YTvanced với nhiều tính năng bổ sung so với Revanced gốc lẫn YTvanced (khuyên dùng với [Telegram X](https://play.google.com/store/apps/details?id=org.thunderdog.challegram) cho nó nhẹ mượt, nhất là với máy yếu): [ở đây](https://t.me/rvx_lite)
+
+Firefox tete009 để riêng tư hơn: [ở đây](www1.plala.or.jp/tete009/en-US/software.html)
 # Liên hệ với tôi nếu muốn:
 
 Gmail: duyanhhoangquoc@gmail.com, hoangjohn2k41@gmail.com
 
-Microsoft 365: maunuocmat@1b1a6.onmicrosoft.com
+~~Microsoft 365: maunuocmat@1b1a6.onmicrosoft.com~~
 
 Outlook: duyladuykk@outlook.com, duyhoang2k41@outlook.com
 
