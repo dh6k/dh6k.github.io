@@ -11,7 +11,7 @@ Sau khi suy nghĩ một lúc, tôi nghĩ rằng cái tên cũ nói chung không 
 
  6=sáu, bao gồm:
 
- Di sản của 1b1a6 Incorporation, số đầu tiên trên bàn phím cơ của tôi không hoạt động (n,h,y,6 và f5), số cuối số điện thoại chính của tôi (616), tổng của tất cả các số trong ngày sinh của tôi (2+8+2+4=16)
+ Di sản của 1b1a***6*** Incorporation, số đầu tiên trên bàn phím cơ của tôi không hoạt động (n,h,y,***6*** và f5), số cuối số điện thoại chính của tôi (61***6***), tổng của tất cả các số trong ngày sinh của tôi (2+8+2+4=1***6***)
 
  k=một chữ trong từ “kk” trong tên cũ của tôi, tất nhiên là kế thừa từ cái tên cũ trước đó.
 
