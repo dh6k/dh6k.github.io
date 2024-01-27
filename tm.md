@@ -15,5 +15,5 @@ The legacies of 1b1a***6*** Incorporation, the first number of my mechanical key
 
 k=one of the word "kk" in my old name, inherits from the old ones.
 
-## Note: I will still use the old name (duyladuykk, dldkk) for some websites because those sites cannot change their old nicknames.  Although it is seen as respecting my old heritage, in the future, these names will no longer be used (I swear).
+## Note: I will still use the old name (duyladuykk, dldkk) for some websites because those sites cannot change my old nicknames.  Although it is seen as respecting my old heritage, in the future, these names will no longer be used (I swear).
 ## You can still contact me using that old name, or this new name, all of them are ok.
