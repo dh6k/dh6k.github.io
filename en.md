@@ -36,7 +36,7 @@ Youtube Revanced extended, an advanced version of ytvanced with many extra featu
 Firefox tete009 for better privacy: [here](www1.plala.or.jp/tete009/en-US/software.html)
 # Contact me for more:
 
-Gmail: duyanhhoangquoc@gmail.com ,hoangjohn2k41@gmail.com
+Gmail: dh6k@duyladuykk.id.vn ,hoangjohn2k41@gmail.com
 
 ~~Office 365 email: maunuocmat@1b1a6.onmicrosoft.com, admin@dldkk.onmicrosoft.com~~
 
