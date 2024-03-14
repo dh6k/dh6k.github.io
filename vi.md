@@ -37,7 +37,7 @@ Youtube Revanced extended, phiên bản ưu việt hơn của YTvanced với nhi
 Firefox tete009 để riêng tư hơn: [ở đây](www1.plala.or.jp/tete009/en-US/software.html)
 # Liên hệ với tôi nếu muốn:
 
-Gmail: duyanhhoangquoc@gmail.com, hoangjohn2k41@gmail.com
+Gmail: dh6k@duyladuykk.id.vn, hoangjohn2k41@gmail.com
 
 ~~Microsoft 365: maunuocmat@1b1a6.onmicrosoft.com~~
 
