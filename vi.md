@@ -1,5 +1,5 @@
 
-# dh6k.github.io
+# gh.dh6k.vip
 Trang github của tôi nói chung.
 Hiện tại không có điều gì đáng chú ý ở đây vào lúc này (thật lòng đấy)
 Tôi chỉ là một người đam mê công nghệ, và vì một vài lý do nào đó, tạo nên trang web này cho vui :)
