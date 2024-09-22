@@ -11,6 +11,6 @@ Saya hanya memberi perhatian kepada saluran MOV HD.
 ฉันสนใจเฉพาะช่อง MOV HD เท่านั้น.
 Nakatuon lang ako sa channel na MOV HD.
 أنا فقط أركز على قناة موف اتش دي.
-אני פשוט שם לב לערוץ Mov HD.
+אני פשוט שם לב לערוץ MOV HD.
 में केवल MOV HD चैनल पर ध्यान देता हूँ।.
 ```
