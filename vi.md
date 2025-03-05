@@ -33,15 +33,17 @@ Magisk delta để root thiết bị Android của bạn, có hỗ trợ ẩn ro
 Các file lữu trữ của Team Vanced trên Apkmirror (nơi Google *không thèm để ý mấy chứ đừng nói là bắt phải gỡ xuống* vì nó cũng có những thất bại của họ): [ở đây](https://www.apkmirror.com/apk/team-vanced/)
 
 Youtube Revanced extended, phiên bản ưu việt hơn của YTvanced với nhiều tính năng bổ sung so với Revanced gốc lẫn YTvanced (khuyên dùng với [Telegram X](https://play.google.com/store/apps/details?id=org.thunderdog.challegram) cho nó nhẹ mượt, nhất là với máy yếu): [ở đây](https://t.me/rvx_lite)
-
+ 
 Firefox tete009 để riêng tư hơn: [ở đây](www1.plala.or.jp/tete009/en-US/software.html)
+
+[Bộ lọc adblock do t gợi ý (thêm vào list custom filter)](https://gh.dh6k.vip/suggested-filter)
 # Liên hệ với tôi nếu muốn:
 
-Gmail: dh6k@duyladuykk.id.vn, hoangjohn2k41@gmail.com
+main email: duya-sensei@dh6k.vip
 
 ~~Microsoft 365: maunuocmat@1b1a6.onmicrosoft.com~~
 
-Outlook: duyladuykk@outlook.com, duyhoang2k41@outlook.com
+Outlook: msft@dh6k.vip, msedge@dh6k.vip (ko để ý đâu)
 
-Số điện thoại: 0932347616 (VN Mobifone), 0961619120 (Viettel)
+Số điện thoại: 0932347616 (VN Mobifone), 0834553788 (Vinaphone)
 
