@@ -14,3 +14,7 @@
   `/^.*?truyenvn.*?$/##a[href*="bet"],a[href*="88"],#banner-ad,#footer,#xmenu,a[href*="?branchseo"],.fade,.mw-w-sidebar,.ft-box,[class*="size-"],.modal,.bg-overlay`
 * Filter chặn phần mềm độc hại
   `https://malware-filter.gitlab.io/malware-filter/vn-badsite-filter.txt`
+* Filter EasyList cookie
+  `https://secure.fanboy.co.nz/fanboy-cookiemonster.txt`
+* Filter Facebook của Ethan
+  `https://raw.githubusercontent.com/ethan-xd/ethan-xd.github.io/master/fb.txt`
