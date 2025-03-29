@@ -1,7 +1,17 @@
 ### Danh sách filter chặn quảng cáo gợi ý bởi t (được cập nhật ko thường xuyên)
-* Filter cá nhân (được cập nhật có thể thường xuyên)
 
+## Filter tự làm (có thể có false positive, dùng cho mục đích cá nhân là chính, có thể thử nếu muốn)
+* Filter cá nhân (được cập nhật có thể thường xuyên)
+`https://filters.dh6k.vip`
+
+  dự phòng:
   `https://raw.githubusercontent.com/dh6k/personal-ad-filter/refs/heads/main/my-filter`
+* Filter YouTube Mobile (t ko nghĩ là nó sẽ chạy đc đâu)
+`https://ytm.33166099.xyz`
+* Filter Facebook port từ Ethan (dùng với facebook mobile)
+  `https://fbm.33166099.xyz`
+
+## Filter sưu tầm được (đảm bảo là sẽ chạy được, thêm thoải mái tuỳ nhu cầu)
 * Filter chặn các loại kèo đá cộ
   `https://raw.githubusercontent.com/lamborghinipth/share/refs/heads/main/userscripts/Adblock/adblock-filter-betcacuoc.txt`
 * Filter chặn các loại ad network
