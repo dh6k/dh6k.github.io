@@ -8,7 +8,7 @@
   `https://raw.githubusercontent.com/dh6k/personal-ad-filter/refs/heads/main/my-filter`
 * Filter YouTube Mobile (t ko nghĩ là nó sẽ chạy đc đâu)
 `https://ytm.33166099.xyz`
-* Filter Facebook port từ Ethan (dùng với facebook mobile)
+* Filter Facebook port từ Ethan (dùng với facebook mobile), hỗ trợ 2 ngôn ngữ tiếng Anh cũng như là tiếng Việt
   `https://fbm.33166099.xyz`
 
 ## Filter sưu tầm được (đảm bảo là sẽ chạy được, thêm thoải mái tuỳ nhu cầu)
