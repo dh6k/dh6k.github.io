@@ -28,5 +28,5 @@
   `https://secure.fanboy.co.nz/fanboy-cookiemonster.txt`
 * Filter Facebook của Ethan
   `https://raw.githubusercontent.com/ethan-xd/ethan-xd.github.io/master/fb.txt`
-* Filter HostsVN (dùng đi nếu cần)
+* Filter [HostsVN](https://github.com/bigdargon/hostsVN) (dùng đi nếu cần)
   `https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts`
