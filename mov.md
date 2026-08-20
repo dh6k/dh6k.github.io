@@ -1,3 +1,10 @@
+---
+layout: page
+title: MOV HD notes
+description: A small multilingual MOV HD note.
+lang: vi
+permalink: /mov/
+---
 ### văn tế mov hd bằng các ngôn ngữ khác nhau (wip)
 ```
 T chỉ để ý đến kênh MOV HD.

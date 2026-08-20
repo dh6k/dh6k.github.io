@@ -1,3 +1,10 @@
+---
+layout: page
+title: Suggested filters
+description: Personal adblock filter list.
+lang: vi
+permalink: /suggested-filter/
+---
 ### Danh sách filter chặn quảng cáo gợi ý bởi t (được cập nhật ko thường xuyên)
 
 ## Filter tự làm (có thể có false positive, dùng cho mục đích cá nhân là chính, có thể thử nếu muốn)

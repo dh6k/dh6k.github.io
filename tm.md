@@ -1,3 +1,12 @@
+---
+layout: page
+title: The true meaning of my name
+description: Notes on the dh6k identity.
+lang: en
+permalink: /tm/
+alternate_url: /tmv/
+alternate_label: Tiếng Việt
+---
 # true meaning of my name
 After thinking for a while, I think that the old name doesn't represent me well in general. Sometimes you guys confuse me with the guy name "duy", yeah, only "duy" with SofM as example.
 

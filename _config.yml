@@ -1,0 +1,12 @@
+title: gh.dh6k.vip
+description: dh6k — indie tech notes, tools, and archives.
+url: https://gh.dh6k.vip
+repository: dh6k/dh6k.github.io
+baseurl: ""
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-sitemap
+defaults:
+  - scope: {path: "", type: "pages"}
+    values: {layout: page, lang: en}

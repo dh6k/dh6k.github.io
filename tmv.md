@@ -1,3 +1,12 @@
+---
+layout: page
+title: Ý nghĩa thật sự của cái tên này
+description: Ghi chú về cái tên dh6k.
+lang: vi
+permalink: /tmv/
+alternate_url: /tm/
+alternate_label: English
+---
 # ý nghĩa thật sự của cái tên này
 Sau khi suy nghĩ một lúc, tôi nghĩ rằng cái tên cũ nói chung không tượng trưng cho tôi nhiều lắm.  Đôi khi các bạn nhầm lẫn tôi với ông nào đó tên “duy”, ừ, chỉ có mình “duy” thôi, với tuyển thủ SofM là ví dụ rõ ràng nhất.
 
