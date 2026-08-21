@@ -20,7 +20,7 @@ for (const file of required) await access(join(root, file));
 if ((await readFile(join(root, 'CNAME'), 'utf8')).trim() !== 'gh.dh6k.vip') throw new Error('CNAME must remain gh.dh6k.vip');
 
 const sources = new Map();
-for (const file of required.filter(file => /\.(?:md|html)$/.test(file))) sources.set(file, await readFile(join(root, file), 'utf8'));
+for (const file of required.filter(file => /\.(?:md|html)$/.test(file))) sources.set(file, (await readFile(join(root, file), 'utf8')).replace(/\r\n?/g, '\n'));
 for (const [file, permalink] of routes) {
   const source = sources.get(file);
   if (!source?.startsWith('---\n')) throw new Error(`missing front matter: ${file}`);
