@@ -28,7 +28,7 @@ Production direction for `gh.dh6k.vip`: personal, bilingual, dark-first knowledg
 ## Interaction and accessibility
 
 - Links remain underlined in prose. Row links reveal underline and accent on hover/focus.
-- Focus uses 2px magenta outline with 4px offset. Skip link becomes visible on focus.
+- Focus uses 2px magenta outline with 4px offset.
 - Native semantic landmarks, correct document language, `hreflang`, one H1, and 44px targets.
 - Motion limited to optional color/border transitions; reduced-motion setting wins.
 

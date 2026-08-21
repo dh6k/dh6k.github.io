@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Personal index
-description: Tech notes, useful links, and archives by dh6k.
+title: Personal tech portfolio
+description: Personal portfolio of dh6k — PTIT student, Android and browser enthusiast, projects, writing, and resources.
 lang: en
 permalink: /en/
 alternate_url: /vi/
@@ -9,19 +9,21 @@ alternate_label: Tiếng Việt
 alternate_lang: vi
 section: PROFILE
 ---
-I’m dh6k, a student at the [Posts and Telecommunications Institute of Technology](https://portal.ptit.edu.vn/eng/), interested in technology, Android, and browsers. This is my personal corner on the web.
+## About
+
+I’m dh6k, a student at the [Posts and Telecommunications Institute of Technology](https://portal.ptit.edu.vn/eng/), interested in technology, Android, and browsers. This portfolio brings together my projects, archives, writing, and useful links.
 
 ## Projects and archives
 - [t-ui dotfiles](https://dh6k.github.io/t-ui-dotfiles/)
 - [YTV 16.30.34 archive](https://github.com/dh6k/432490279788313560182459438453/releases/)
 - [Another YTV archive](https://github.com/KhanhNguyen9872/0101011101010111001110010011000101100100010010000101011001101001010110100101011000111001010101110101/releases/)
 
-## Blogs
+## Writing
 
 - [First blog](https://dh6k.blogspot.com)
 - [Second blog](https://dh6k.hashnode.dev)
 
-## Resources
+## Resources and notes
 - [Yandex Browser Beta](https://browser.yandex.com/beta/)
 - [Brave for Windows (direct download)](https://laptop-updates.brave.com/latest/winx64) · [Brave for Android](https://play.google.com/store/apps/details?id=com.brave.browser)
 - [Winaero Tweaker](https://winaero.com/download-winaero-tweaker/) · [Poweramp](https://powerampapp.com/download-poweramp/)
@@ -35,4 +37,6 @@ I’m dh6k, a student at the [Posts and Telecommunications Institute of Technolo
 - [MOV notes](/mov/)
 - [The meaning of my name](/tm/)
 
-Contact: [duya-sensei@dh6k.vip](mailto:duya-sensei@dh6k.vip). Phone numbers are intentionally not published here.
+## Contact
+
+[duya-sensei@dh6k.vip](mailto:duya-sensei@dh6k.vip)

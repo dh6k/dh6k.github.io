@@ -28,9 +28,10 @@ for (const [file, permalink] of routes) {
 }
 
 const layout = sources.get('_layouts/default.html');
-for (const token of ['theme-color', 'canonical', 'og:type', 'twitter:card', '| escape', 'skip-link', 'site.repository']) {
+for (const token of ['theme-color', 'canonical', 'og:type', 'twitter:card', '| escape', 'site.repository', 'https://keepandroidopen.org/banner.js?size=minimal&animation=off']) {
   if (!layout.includes(token)) throw new Error(`missing layout metadata/accessibility token: ${token}`);
 }
+if (layout.includes('Skip to content') || layout.includes('skip-link')) throw new Error('removed skip link returned');
 if (/href=["']www\./i.test([...sources.values()].join('\n'))) throw new Error('malformed href without scheme');
 
 const knownRoutes = new Set([...routes.values(), '/assets/favicon.svg', '/assets/css/site.css', '/sitemap.xml']);

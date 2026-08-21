@@ -38,5 +38,5 @@ Personal bilingual tech homepage for dh6k. Visitors need identity, interests, pr
 
 ## Accessibility
 
-- WCAG 2.2 AA contrast target, semantic landmarks, one H1, skip link, language metadata, 44px touch targets.
+- WCAG 2.2 AA contrast target, semantic landmarks, one H1, language metadata, and 44px touch targets.
 - Mobile checks at 360, 390–430; tablet 768; desktop 1024 and 1440+.
