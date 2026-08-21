@@ -180,11 +180,11 @@
       "font-weight:500;" +
       "text-transform:none;" +
       "letter-spacing:0.04em;" +
-      "font-size:0.72rem;" +
+      "font-size:0.95rem;" +
       "text-align:center;" +
       "text-shadow:none;" +
-      "padding:0.35rem 3.25rem 0.35rem 1rem;" +
-      "line-height:1.35;" +
+      "padding:0.45rem 3.25rem 0.45rem 1rem;" +
+      "line-height:1.4;" +
       "overflow-wrap:anywhere;" +
       "box-sizing:border-box;" +
     "}";
@@ -355,4 +355,3 @@
   timer = setInterval(updateBanner, 1000);
   updateBanner();
 })();
-
