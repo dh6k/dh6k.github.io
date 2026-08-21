@@ -12,7 +12,7 @@ Production direction for `gh.dh6k.vip`: personal, bilingual, dark-first knowledg
 
 ## Type and layout
 
-- One H1 per page. Hero H1 uses fluid 40–76px; article H1 34–56px.
+- One H1 per page. Hero H1 uses fluid 38–64px; article H1 32–48px; section titles stay at 21–24px.
 - Body 16px/1.7; lead 17–20px; mono labels 11px with wide tracking.
 - Homepage uses two-column grid above 768px and one column below. Wide sections span both columns.
 - Breakpoints: 640px for compact header/actions; 768px for content grid. Layout remains bounded at 1440px+.

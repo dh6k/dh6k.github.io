@@ -18,9 +18,9 @@ I’m dh6k, a student at the [Posts and Telecommunications Institute of Technolo
 ### 2026
 - [Morphe Patches](https://github.com/dh6k/morphe-patches)
 - [or1g1n](https://github.com/dh6k/or1g1n)
-- [Odysseus locally on Android](https://github.com/dh6k/odysseus-android-termux)
+- [odysseus locally on android](https://github.com/dh6k/odysseus-android-termux)
 
-### 2021–2022
+### 2021-2022
 - [t-ui dotfiles](https://dh6k.github.io/t-ui-dotfiles/)
 - [YTV 16.30.34 archive](https://github.com/dh6k/432490279788313560182459438453/releases/)
 - [Community YTV archive](https://github.com/KhanhNguyen9872/0101011101010111001110010011000101100100010010000101011001101001010110100101011000111001010101110101/releases/)

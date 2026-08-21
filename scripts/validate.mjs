@@ -38,9 +38,14 @@ const profileLinks = file => [...sources.get(file).split('---\n').at(-1).matchAl
 const enLinks = profileLinks('en/index.md');
 const viLinks = profileLinks('vi/index.md');
 if (JSON.stringify(enLinks) !== JSON.stringify(viLinks)) throw new Error('EN/VI profile link order is not synchronized');
+const headingLevels = file => [...sources.get(file).split('---\n').at(-1).matchAll(/^(#{2,6})\s+/gm)].map(match => match[1].length);
+if (JSON.stringify(headingLevels('en/index.md')) !== JSON.stringify(headingLevels('vi/index.md'))) throw new Error('EN profile heading hierarchy does not match canonical VI profile');
+for (const canonicalToken of ['### 2026', '### 2021-2022', '[Morphe Patches]', '[or1g1n]', '[odysseus locally on android]']) {
+  if (!sources.get('en/index.md').includes(canonicalToken)) throw new Error(`EN profile drifted from canonical VI structure: ${canonicalToken}`);
+}
 
 const css = await readFile(join(root, 'assets/css/site.css'), 'utf8');
-for (const token of ['body .kao-banner', 'body .kao-banner a', 'body .kao-banner-close', 'min-height: 2.75rem', 'var(--accent)', 'var(--mono)']) {
+for (const token of ['body .kao-banner', 'body .kao-banner a', 'body .kao-banner-close', 'min-height: 2.75rem', 'var(--accent)', 'var(--mono)', 'text-shadow: none', 'transform: none', 'opacity: 1']) {
   if (!css.includes(token)) throw new Error(`missing synchronized banner style token: ${token}`);
 }
 
