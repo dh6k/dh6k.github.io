@@ -1,4 +1,15 @@
 ---
 layout: default
 ---
-<article class="article"><p class="article-nav"><a href="{{ '/' | relative_url }}">← Home</a>{% if page.alternate_url %} · <a href="{{ page.alternate_url | relative_url }}">{{ page.alternate_label }}</a>{% endif %}</p><p class="eyebrow">{{ page.lang | upcase }} / NOTE</p><h1>{{ page.title }}</h1>{{ content }}</article>
+<article class="article">
+  <nav class="article-nav" aria-label="Page context">
+    <a href="{{ '/' | relative_url }}">← Home</a>
+    {% if page.alternate_url %}<a href="{{ page.alternate_url | relative_url }}" hreflang="{{ page.alternate_lang }}" lang="{{ page.alternate_lang }}">{{ page.alternate_label }} ↗</a>{% endif %}
+  </nav>
+  <header class="article-header">
+    <p class="eyebrow">{{ page.lang | upcase }} / {{ page.section | default: 'NOTE' }}</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}<p class="article-description">{{ page.description }}</p>{% endif %}
+  </header>
+  <div class="prose">{{ content }}</div>
+</article>

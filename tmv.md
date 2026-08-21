@@ -6,8 +6,8 @@ lang: vi
 permalink: /tmv/
 alternate_url: /tm/
 alternate_label: English
+alternate_lang: en
 ---
-# ý nghĩa thật sự của cái tên này
 Sau khi suy nghĩ một lúc, tôi nghĩ rằng cái tên cũ nói chung không tượng trưng cho tôi nhiều lắm.  Đôi khi các bạn nhầm lẫn tôi với ông nào đó tên “duy”, ừ, chỉ có mình “duy” thôi, với tuyển thủ SofM là ví dụ rõ ràng nhất.
 
  Vì vậy, tôi quyết định làm mới cái nickname của mình, và tôi nghĩ đó chính là quyết định đúng đắn của tôi cho đến thời điểm hiện tại.

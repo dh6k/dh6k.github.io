@@ -1,14 +1,44 @@
 <!doctype html>
 <html lang="{{ page.lang | default: 'en' }}">
-<head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#0b0b0f">
-  <title>{{ page.title | default: site.title | escape }}{% if page.title %} · {{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{{ page.description | default: site.description | escape }}">
-  <link rel="canonical" href="{{ page.url | absolute_url }}">
-  <meta property="og:type" content="website"><meta property="og:title" content="{{ page.title | default: site.title | escape }}"><meta property="og:description" content="{{ page.description | default: site.description | escape }}"><meta property="og:url" content="{{ page.url | absolute_url }}">
-  <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}"><link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
-</head>
-<body><a class="skip" href="#main">Skip to content</a>
-<header><a class="brand" href="{{ '/' | relative_url }}">gh<span>.dh6k</span>.vip</a><nav aria-label="Primary"><a lang="vi" hreflang="vi" href="{{ '/vi/' | relative_url }}"{% if page.lang == 'vi' %} aria-current="page"{% endif %}>VI</a><a lang="en" hreflang="en" href="{{ '/en/' | relative_url }}"{% if page.lang == 'en' %} aria-current="page"{% endif %}>EN</a><a href="{{ '/suggested-filter/' | relative_url }}">Filters</a><a href="{{ '/mov/' | relative_url }}">MOV</a></nav></header>
-<main id="main">{{ content }}</main><footer><span>Built with plain Jekyll.</span><a href="{{ '/sitemap.xml' | relative_url }}">Sitemap</a><a href="{{ page.path | prepend: '/' | relative_url }}">Source</a></footer></body></html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0b0b0f">
+    <meta name="color-scheme" content="dark">
+    {% assign meta_title = page.title | default: site.title %}
+    {% assign meta_description = page.description | default: site.description %}
+    <title>{{ meta_title | escape }}{% if page.title %} · {{ site.title | escape }}{% endif %}</title>
+    <meta name="description" content="{{ meta_description | escape }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    {% if page.alternate_url %}<link rel="alternate" hreflang="{{ page.alternate_lang }}" href="{{ page.alternate_url | absolute_url }}">{% endif %}
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ meta_title | escape }}">
+    <meta property="og:description" content="{{ meta_description | escape }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="gh.dh6k.vip home">gh<span>.dh6k</span>.vip</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a lang="vi" hreflang="vi" href="{{ '/vi/' | relative_url }}"{% if page.url == '/vi/' %} aria-current="page"{% endif %}>VI</a>
+        <a lang="en" hreflang="en" href="{{ '/en/' | relative_url }}"{% if page.url == '/en/' %} aria-current="page"{% endif %}>EN</a>
+        <a href="{{ '/suggested-filter/' | relative_url }}"{% if page.url == '/suggested-filter/' %} aria-current="page"{% endif %}>Filters</a>
+        <a href="{{ '/mov/' | relative_url }}"{% if page.url == '/mov/' %} aria-current="page"{% endif %}>MOV</a>
+      </nav>
+    </header>
+    <main id="main">{{ content }}</main>
+    <footer class="site-footer">
+      <span>Personal web · plain Jekyll</span>
+      <nav aria-label="Footer navigation">
+        <a href="{{ '/vi/' | relative_url }}" lang="vi">Tiếng Việt</a>
+        <a href="{{ '/en/' | relative_url }}" lang="en">English</a>
+        <a href="{{ '/sitemap.xml' | relative_url }}">Sitemap</a>
+        <a href="https://github.com/{{ site.repository }}/blob/main/{{ page.path }}">Source</a>
+      </nav>
+    </footer>
+  </body>
+</html>

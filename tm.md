@@ -6,8 +6,8 @@ lang: en
 permalink: /tm/
 alternate_url: /tmv/
 alternate_label: Tiếng Việt
+alternate_lang: vi
 ---
-# true meaning of my name
 After thinking for a while, I think that the old name doesn't represent me well in general. Sometimes you guys confuse me with the guy name "duy", yeah, only "duy" with SofM as example.
 
 Therefore, I decide to refresh my identity, which is my honest decision so far.
