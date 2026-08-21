@@ -49,15 +49,29 @@ const css = await readFile(join(root, 'assets/css/site.css'), 'utf8');
 if (/\.kao-banner(?:-close)?\b/.test(css)) throw new Error('redundant banner override remains in site stylesheet');
 
 const banner = await readFile(join(root, 'assets/js/banner.js'), 'utf8');
+const expectedBannerLocales = ['fa','ar','he','en','mn','ca','cs','de','da','nl','el','es','fr','id','it','ko','pl','pt-BR','ru','sk','th','tr','uk','zh-CN','zh-TW','ja','fi','hu','vi','bg','be','hi'];
+const messageBlock = banner.match(/var messages = \{([\s\S]*?)\n  \};/)?.[1] || '';
+const messageEntries = [...messageBlock.matchAll(/^\s*(?:"([^"]+)"|([\w-]+)):\s*"([^"]*)"/gm)].map(match => [match[1] || match[2], match[3]]);
+if (JSON.stringify(messageEntries.map(([key]) => key)) !== JSON.stringify(expectedBannerLocales)) throw new Error('banner locale key set or order changed');
+for (const [key, template] of messageEntries) {
+  if ((template.match(/\{countdown\}/g) || []).length !== 1) throw new Error(`banner locale ${key} must contain exactly one countdown placeholder`);
+}
+const exactEnglish = 'The good old Android era ends in {countdown}. While some are still busy shooting themselves in the foot, we refuse to stand by and watch.';
+const exactVietnamese = 'Kỷ nguyên Android tươi đẹp sẽ kết thúc sau {countdown}. Trong khi một số người vẫn mải tự chuốc họa vào thân, chúng tôi nhất quyết không đứng nhìn.';
+if (messageEntries.find(([key]) => key === 'en')?.[1] !== exactEnglish) throw new Error('English banner template changed');
+if (messageEntries.find(([key]) => key === 'vi')?.[1] !== exactVietnamese) throw new Error('Vietnamese banner template changed');
 for (const token of [
   'SPDX-License-Identifier: GPL-3.0-only', 'GNU General Public License v3.0',
   'document.currentScript', 'getScriptParams', 'resolveLocale', 'localStorage',
-  'setInterval(updateBanner, 1000)', 'var cssNormal', 'var cssMini', 'var cssMinimal',
+  'setInterval(updateBanner, 1000)', 'messageTemplate.split("{countdown}")',
+  'messageContainer.appendChild(countdownSpan)', 'Math.max(0, rawDistance)',
+  'var cssNormal', 'var cssMini', 'var cssMinimal',
   'var(--surface-raised,#15151d)', 'var(--accent,#ff3d91)', 'var(--mono,ui-monospace',
   'font-size:1.2rem', 'font-weight:600', 'width:2.75rem', 'height:2.75rem', 'text-shadow:none', 'transform:none'
 ]) {
   if (!banner.includes(token)) throw new Error(`missing self-hosted banner license, behavior, or style token: ${token}`);
 }
+if (banner.includes('Android will become a locked-down platform in')) throw new Error('obsolete banner sentence returned');
 
 const knownRoutes = new Set([...routes.values(), '/assets/favicon.svg', '/assets/css/site.css', '/sitemap.xml']);
 const hrefPattern = /href=["'](\/[^"'#?]*)/g;

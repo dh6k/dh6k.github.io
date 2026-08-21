@@ -26,38 +26,38 @@
 
   // ── Localized banner strings ──────────────────────────────────────────
   var messages = {
-    fa:      "اندروید، یک سکّوی بسته خواهد شد!",
-    ar:      "سيصبح نظام أندرويد منصة مغلقة في",
-    he:      "אנדרואיד תהפוך לפלטפורמה נעולה בעוד",
-    en:      "Android will become a locked-down platform in",
-    mn:      "Андройд энэ хугацааны дараа Google Play Store-оос бусад апп татаж чадахгүй болно.",
-    ca:      "Android es convertir\u00E0 en una plataforma tancada",
-    cs:      "Android se stane uzamčenou platformou za",
-    de:      "Android wird eine geschlossene Plattform werden.",
-    da:      "Android vil blive en lukket platform om",
-    nl:      "Android zal een gesloten platform worden over",
-    el:      "\u03A4\u03BF Android \u03B8\u03B1 \u03B3\u03AF\u03BD\u03B5\u03B9 \u03BC\u03AF\u03B1 \u03BA\u03BB\u03B5\u03B9\u03C3\u03C4\u03AE \u03C0\u03BB\u03B1\u03C4\u03C6\u03CC\u03C1\u03BC\u03B1",
-    es:      "Android se convertir\u00E1 en una plataforma cerrada en",
-    fr:      "Android va devenir une plateforme ferm\u00E9e dans",
-    id:      "Android akan menjadi platform yang terkunci.",
-    it:      "Android diventer\u00E0 una piattaforma bloccata",
-    ko:      "Android\uAC00 \uD3D0\uC1C4\uB41C \uD50C\uB7AB\uD3FC\uC774 \uB418\uAE30\uAE4C\uC9C0 \uB0A8\uC740 \uC2DC\uAC04:",
-    pl:      "Android stanie si\u0119 platform\u0105 zamkni\u0119t\u0105 za",
-    "pt-BR": "O Android se tornar\u00E1 uma plataforma fechada em",
-    ru:      "Android \u0441\u0442\u0430\u043D\u0435\u0442 \u0437\u0430\u043A\u0440\u044B\u0442\u043E\u0439 \u043F\u043B\u0430\u0442\u0444\u043E\u0440\u043C\u043E\u0439 \u0447\u0435\u0440\u0435\u0437",
-    sk:      "Android sa stane uzamknutou platformou",
-    th:      "Android\u0E08\u0E30\u0E40\u0E1B\u0E47\u0E19\u0E41\u0E1E\u0E25\u0E15\u0E1F\u0E2D\u0E23\u0E4C\u0E21\u0E17\u0E35\u0E48\u0E16\u0E39\u0E01\u0E25\u0E47\u0E2D\u0E01",
-    tr:      "Android k\u0131s\u0131tl\u0131 bir platform haline gelecek.",
-    uk:      "Android \u0441\u0442\u0430\u043D\u0435 \u0437\u0430\u043A\u0440\u0438\u0442\u043E\u044E \u043F\u043B\u0430\u0442\u0444\u043E\u0440\u043C\u043E\u044E",
-    "zh-CN": "\u5B89\u5353\u5C06\u6210\u4E3A\u4E00\u4E2A\u5C01\u95ED\u5E73\u53F0",
-    "zh-TW": "Android \u5C07\u6210\u70BA\u4E00\u500B\u5C01\u9589\u5E73\u53F0",
-    ja:      "Androidは閉鎖的なプラットフォームになろうとしています",
-    fi:      "Androidista tulee suljettu alusta",
-    hu:      "Az Android egy lezárt platform lesz",
-    vi:      "Android sẽ trở thành một hệ điều hành đóng",
-    bg:      "Android ще стане заключена платформа след",
-    be:      "Android \u0441\u0442\u0430\u043d\u0435 \u0437\u0430\u043a\u0440\u044b\u0442\u0430\u0439 \u043f\u043b\u0430\u0444\u0442\u043e\u0440\u043c\u0430\u0439 \u0020 \u0020",
-    hi:      "Android एक बंद इकोसिस्टम बन जाएगा"
+    fa:      "دوران خوب قدیمی اندروید تا {countdown} دیگر به پایان می‌رسد. در حالی که بعضی‌ها هنوز مشغول ضربه زدن به خودشان هستند، ما حاضر نیستیم دست روی دست بگذاریم و تماشا کنیم.",
+    ar:      "ينتهي عصر أندرويد الجميل القديم خلال {countdown}. وبينما لا يزال البعض منشغلًا بإيذاء نفسه، فإننا نرفض الوقوف مكتوفي الأيدي والمشاهدة.",
+    he:      "עידן אנדרואיד הישן והטוב יסתיים בעוד {countdown}. בזמן שחלק עדיין עסוקים בלירות לעצמם ברגל, אנחנו מסרבים לעמוד מנגד ולצפות.",
+    en:      "The good old Android era ends in {countdown}. While some are still busy shooting themselves in the foot, we refuse to stand by and watch.",
+    mn:      "Андройдын сайхан хуучин үе {countdown}-ийн дараа дуусна. Зарим нь өөрсдөдөө гай тарьсаар байхад бид зүгээр хараад зогсохоос татгалзаж байна.",
+    ca:      "La bona època d'Android s'acaba d'aquí a {countdown}. Mentre alguns encara estan ocupats disparant-se al peu, nosaltres ens neguem a quedar-nos de braços plegats mirant.",
+    cs:      "Stará dobrá éra Androidu skončí za {countdown}. Zatímco si někteří stále střílejí do vlastní nohy, my odmítáme nečinně přihlížet.",
+    de:      "Die gute alte Android-Ära endet in {countdown}. Während einige noch damit beschäftigt sind, sich selbst ins Knie zu schießen, weigern wir uns, tatenlos zuzusehen.",
+    da:      "Den gode gamle Android-æra slutter om {countdown}. Mens nogle stadig har travlt med at skyde sig selv i foden, nægter vi at stå passivt og se til.",
+    nl:      "Het goede oude Android-tijdperk eindigt over {countdown}. Terwijl sommigen nog druk bezig zijn zichzelf in de voet te schieten, weigeren wij werkeloos toe te kijken.",
+    el:      "Η παλιά καλή εποχή του Android τελειώνει σε {countdown}. Ενώ κάποιοι συνεχίζουν να πυροβολούν τα πόδια τους, εμείς αρνούμαστε να μείνουμε άπραγοι και να κοιτάμε.",
+    es:      "La buena época de Android termina en {countdown}. Mientras algunos siguen ocupados disparándose en el pie, nosotros nos negamos a quedarnos de brazos cruzados mirando.",
+    fr:      "La belle époque d'Android se termine dans {countdown}. Pendant que certains continuent à se tirer une balle dans le pied, nous refusons de rester les bras croisés à regarder.",
+    id:      "Era Android yang indah akan berakhir dalam {countdown}. Sementara sebagian pihak masih sibuk merugikan diri sendiri, kami menolak hanya berdiam diri dan menonton.",
+    it:      "La cara vecchia era di Android termina tra {countdown}. Mentre alcuni sono ancora impegnati a darsi la zappa sui piedi, noi ci rifiutiamo di restare a guardare.",
+    ko:      "좋았던 Android 시대가 {countdown} 후 끝납니다. 일부가 여전히 스스로 발등을 찍는 동안, 우리는 그저 서서 지켜보기만 하는 것을 거부합니다.",
+    pl:      "Stara dobra era Androida kończy się za {countdown}. Podczas gdy niektórzy wciąż strzelają sobie w stopę, my nie zamierzamy stać z boku i patrzeć.",
+    "pt-BR": "A boa e velha era do Android termina em {countdown}. Enquanto alguns ainda estão ocupados dando um tiro no próprio pé, nós nos recusamos a ficar parados assistindo.",
+    ru:      "Старая добрая эпоха Android закончится через {countdown}. Пока некоторые продолжают стрелять себе в ногу, мы отказываемся стоять в стороне и наблюдать.",
+    sk:      "Stará dobrá éra Androidu sa skončí o {countdown}. Kým si niektorí stále strieľajú do vlastnej nohy, my odmietame nečinne stáť a prizerať sa.",
+    th:      "ยุค Android อันแสนดีจะสิ้นสุดลงในอีก {countdown} ขณะที่บางคนยังคงทำร้ายตัวเอง เราขอปฏิเสธที่จะยืนดูอยู่เฉย ๆ",
+    tr:      "Android'un o güzel eski dönemi {countdown} içinde sona eriyor. Bazıları hâlâ kendi ayağına sıkmakla meşgulken biz kenarda durup izlemeyi reddediyoruz.",
+    uk:      "Стара добра епоха Android закінчиться через {countdown}. Поки дехто й далі стріляє собі в ногу, ми відмовляємося стояти осторонь і спостерігати.",
+    "zh-CN": "Android 的美好旧时代将在 {countdown} 后结束。虽然有些人仍忙着搬起石头砸自己的脚，但我们拒绝袖手旁观。",
+    "zh-TW": "Android 的美好舊時代將在 {countdown} 後結束。雖然有些人仍忙著搬石頭砸自己的腳，但我們拒絕袖手旁觀。",
+    ja:      "古き良き Android の時代は {countdown} 後に終わります。いまだに自ら墓穴を掘ることに忙しい人たちがいる一方で、私たちは黙って見過ごすことを拒みます。",
+    fi:      "Androidin vanha hyvä aikakausi päättyy {countdown} kuluttua. Kun jotkut yhä ampuvat itseään jalkaan, me kieltäydymme seisomasta sivussa ja katsomasta.",
+    hu:      "A régi szép Android-korszak {countdown} múlva véget ér. Miközben egyesek még mindig lábon lövik magukat, mi nem vagyunk hajlandók tétlenül végignézni.",
+    vi:      "Kỷ nguyên Android tươi đẹp sẽ kết thúc sau {countdown}. Trong khi một số người vẫn mải tự chuốc họa vào thân, chúng tôi nhất quyết không đứng nhìn.",
+    bg:      "Доброто старо време на Android приключва след {countdown}. Докато някои още се прострелват в крака, ние отказваме да стоим отстрани и да гледаме.",
+    be:      "Старая добрая эпоха Android скончыцца праз {countdown}. Пакуль некаторыя ўсё яшчэ страляюць сабе ў нагу, мы адмаўляемся стаяць убаку і назіраць.",
+    hi:      "Android का अच्छा पुराना दौर {countdown} में समाप्त हो जाएगा। जब कुछ लोग अब भी अपने ही पैर पर कुल्हाड़ी मारने में व्यस्त हैं, हम चुपचाप खड़े होकर तमाशा देखने से इनकार करते हैं।"
   };
 
   // ── Parse query parameters from the script's own src URL ──────────────
@@ -249,28 +249,24 @@
   var banner = document.createElement("div");
   banner.className = params.animation === "off" ? "kao-banner no-animation" : "kao-banner";
 
-  var messageText = messages[locale] || messages.en;
+  var messageTemplate = messages[locale] || messages.en;
+  var messageParts = messageTemplate.split("{countdown}");
+  var messageContainer = banner;
 
   if (linkUrl) {
     var link = document.createElement("a");
     link.href = linkUrl;
     link.target = "_blank";
     link.rel = "noopener";
-    link.textContent = messageText;
+    messageContainer = link;
     banner.appendChild(link);
-  } else {
-    banner.appendChild(document.createTextNode(messageText));
   }
 
-  if (params.size === "minimal") {
-    banner.appendChild(document.createTextNode("\u00A0"));
-  } else {
-    banner.appendChild(document.createElement("br"));
-  }
-
+  messageContainer.appendChild(document.createTextNode(messageParts[0]));
   var countdownSpan = document.createElement("span");
   countdownSpan.textContent = "\u00A0";
-  banner.appendChild(countdownSpan);
+  messageContainer.appendChild(countdownSpan);
+  messageContainer.appendChild(document.createTextNode(messageParts[1]));
 
   // Close button
   if (showClose) {
@@ -318,7 +314,8 @@
 
   function updateBanner() {
     var now = new Date().getTime();
-    var distance = countDownDate - now;
+    var rawDistance = countDownDate - now;
+    var distance = Math.max(0, rawDistance);
 
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
     var hours = Math.floor(
@@ -347,7 +344,7 @@
 
     countdownSpan.textContent = remaining.join("");
 
-    if (distance < 0) {
+    if (rawDistance < 0) {
       clearInterval(timer);
     }
   }
