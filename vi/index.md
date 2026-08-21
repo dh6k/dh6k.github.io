@@ -14,6 +14,14 @@ section: PROFILE
 Tôi là dh6k, sinh viên [Học viện Công nghệ Bưu chính Viễn thông](https://portal.ptit.edu.vn/), thích công nghệ, Android và trình duyệt. Hồ sơ này tập hợp dự án, kho lưu trữ, bài viết và các liên kết hữu ích của tôi.
 
 ## Dự án và kho lưu trữ
+
+### 2026
+- [Morphe Patches](https://github.com/dh6k/morphe-patches)
+- [or1g1n](https://github.com/dh6k/or1g1n)
+- [odysseus locally on android](https://github.com/dh6k/odysseus-android-termux)
+
+
+### 2021-2022
 - [Dotfiles cho t-ui](https://dh6k.github.io/t-ui-dotfiles/)
 - [Kho lưu trữ YTV 16.30.34](https://github.com/dh6k/432490279788313560182459438453/releases/)
 - [Kho lưu trữ YTV khác](https://github.com/KhanhNguyen9872/0101011101010111001110010011000101100100010010000101011001101001010110100101011000111001010101110101/releases/)
