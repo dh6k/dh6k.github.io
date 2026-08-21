@@ -24,6 +24,7 @@ Personal bilingual tech homepage for dh6k. Visitors need identity, interests, pr
 ## Components and states
 
 - Header: compact brand plus VI/EN and utility links; wraps cleanly at 360px.
+- Campaign banner: dark site surface, magenta rule, mono text, and 44px close control.
 - Links: underlined in content; nav links use clear active state and visible focus.
 - Buttons: solid accent primary, bordered neutral secondary; minimum 44px touch target.
 - Sections: editorial dividers and numbered mono labels. Cards only for grouped interactive content.

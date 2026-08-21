@@ -11,17 +11,17 @@ section: PROFILE
 ---
 ## About
 
-I’m dh6k, a student at the [Posts and Telecommunications Institute of Technology](https://portal.ptit.edu.vn/eng/), interested in technology, Android, and browsers. This portfolio brings together my projects, archives, writing, and useful links.
+I’m dh6k, a student at the [Posts and Telecommunications Institute of Technology](https://portal.ptit.edu.vn/), interested in technology, Android, and browsers. This portfolio brings together my projects, archives, writing, and useful links.
 
 ## Projects and archives
 - [t-ui dotfiles](https://dh6k.github.io/t-ui-dotfiles/)
 - [YTV 16.30.34 archive](https://github.com/dh6k/432490279788313560182459438453/releases/)
-- [Another YTV archive](https://github.com/KhanhNguyen9872/0101011101010111001110010011000101100100010010000101011001101001010110100101011000111001010101110101/releases/)
+- [Community YTV archive](https://github.com/KhanhNguyen9872/0101011101010111001110010011000101100100010010000101011001101001010110100101011000111001010101110101/releases/)
 
 ## Writing
 
-- [First blog](https://dh6k.blogspot.com)
-- [Second blog](https://dh6k.hashnode.dev)
+- [Blogspot](https://dh6k.blogspot.com)
+- [Hashnode](https://dh6k.hashnode.dev)
 
 ## Resources and notes
 - [Yandex Browser Beta](https://browser.yandex.com/beta/)
@@ -35,7 +35,8 @@ I’m dh6k, a student at the [Posts and Telecommunications Institute of Technolo
 ## Utility pages
 
 - [MOV notes](/mov/)
-- [The meaning of my name](/tm/)
+- [Name meaning — English](/tm/)
+- [Name meaning — Vietnamese](/tmv/)
 
 ## Contact
 

@@ -24,12 +24,12 @@ Tôi là dh6k, sinh viên [Học viện Công nghệ Bưu chính Viễn thông](
 ### 2021-2022
 - [Dotfiles cho t-ui](https://dh6k.github.io/t-ui-dotfiles/)
 - [Kho lưu trữ YTV 16.30.34](https://github.com/dh6k/432490279788313560182459438453/releases/)
-- [Kho lưu trữ YTV khác](https://github.com/KhanhNguyen9872/0101011101010111001110010011000101100100010010000101011001101001010110100101011000111001010101110101/releases/)
+- [Kho lưu trữ YTV cộng đồng](https://github.com/KhanhNguyen9872/0101011101010111001110010011000101100100010010000101011001101001010110100101011000111001010101110101/releases/)
 
 ## Bài viết
 
-- [Blog đầu tiên](https://dh6k.blogspot.com)
-- [Blog thứ hai](https://dh6k.hashnode.dev)
+- [Blogspot](https://dh6k.blogspot.com)
+- [Hashnode](https://dh6k.hashnode.dev)
 
 ## Tài nguyên và ghi chú
 - [Yandex Browser Beta](https://browser.yandex.com/beta/)
@@ -43,7 +43,8 @@ Tôi là dh6k, sinh viên [Học viện Công nghệ Bưu chính Viễn thông](
 ## Trang tiện ích
 
 - [Ghi chú MOV](/mov/)
-- [Ý nghĩa tên](/tmv/)
+- [Ý nghĩa tên — tiếng Anh](/tm/)
+- [Ý nghĩa tên — tiếng Việt](/tmv/)
 
 ## Liên hệ
 

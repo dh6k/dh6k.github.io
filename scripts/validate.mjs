@@ -34,6 +34,16 @@ for (const token of ['theme-color', 'canonical', 'og:type', 'twitter:card', '| e
 if (layout.includes('Skip to content') || layout.includes('skip-link')) throw new Error('removed skip link returned');
 if (/href=["']www\./i.test([...sources.values()].join('\n'))) throw new Error('malformed href without scheme');
 
+const profileLinks = file => [...sources.get(file).split('---\n').at(-1).matchAll(/\[[^\]]+\]\(([^)]+)\)/g)].map(match => match[1]);
+const enLinks = profileLinks('en/index.md');
+const viLinks = profileLinks('vi/index.md');
+if (JSON.stringify(enLinks) !== JSON.stringify(viLinks)) throw new Error('EN/VI profile link order is not synchronized');
+
+const css = await readFile(join(root, 'assets/css/site.css'), 'utf8');
+for (const token of ['body .kao-banner', 'body .kao-banner a', 'body .kao-banner-close', 'min-height: 2.75rem', 'var(--accent)', 'var(--mono)']) {
+  if (!css.includes(token)) throw new Error(`missing synchronized banner style token: ${token}`);
+}
+
 const knownRoutes = new Set([...routes.values(), '/assets/favicon.svg', '/assets/css/site.css', '/sitemap.xml']);
 const hrefPattern = /href=["'](\/[^"'#?]*)/g;
 for (const [file, source] of sources) {
@@ -49,4 +59,4 @@ for (const file of obsolete) {
 
 const emojiFiles = await readdir(join(root, 'emoji'));
 if (!emojiFiles.length) throw new Error('emoji compatibility assets missing');
-console.log('validated source files, exact permalinks, metadata tokens, internal routes, CNAME, and legacy cleanup');
+console.log('validated source files, bilingual link parity, banner styles, permalinks, metadata, internal routes, CNAME, and legacy cleanup');
