@@ -177,13 +177,13 @@
       "border-bottom:1px solid var(--accent,#ff3d91);" +
       "color:var(--ink,#f4f1f5);" +
       "font-family:var(--mono,ui-monospace,SFMono-Regular,Consolas,Liberation Mono,monospace);" +
-      "font-weight:500;" +
+      "font-weight:600;" +
       "text-transform:none;" +
       "letter-spacing:0.04em;" +
-      "font-size:0.95rem;" +
+      "font-size:1.2rem;" +
       "text-align:center;" +
       "text-shadow:none;" +
-      "padding:0.45rem 3.25rem 0.45rem 1rem;" +
+      "padding:0.55rem 3.25rem 0.55rem 1rem;" +
       "line-height:1.4;" +
       "overflow-wrap:anywhere;" +
       "box-sizing:border-box;" +

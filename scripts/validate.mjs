@@ -54,7 +54,7 @@ for (const token of [
   'document.currentScript', 'getScriptParams', 'resolveLocale', 'localStorage',
   'setInterval(updateBanner, 1000)', 'var cssNormal', 'var cssMini', 'var cssMinimal',
   'var(--surface-raised,#15151d)', 'var(--accent,#ff3d91)', 'var(--mono,ui-monospace',
-  'font-size:0.95rem', 'width:2.75rem', 'height:2.75rem', 'text-shadow:none', 'transform:none'
+  'font-size:1.2rem', 'font-weight:600', 'width:2.75rem', 'height:2.75rem', 'text-shadow:none', 'transform:none'
 ]) {
   if (!banner.includes(token)) throw new Error(`missing self-hosted banner license, behavior, or style token: ${token}`);
 }
