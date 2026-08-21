@@ -6,12 +6,12 @@ lang: en
 permalink: /
 ---
 <section class="hero" aria-labelledby="hero-title">
-  <p class="eyebrow">D H 6 K / PERSONAL PORTFOLIO</p>
+  <p class="eyebrow">Tinkerer ● Enthusiast</p>
   <h1 id="hero-title">Android, browsers,<br><em>and useful things.</em></h1>
   <p class="lede">I’m dh6k, a PTIT student interested in Android, browsers, and practical technology. This site collects my projects, archives, writing, and notes.</p>
   <nav class="hero-actions" aria-label="Choose language">
-    <a class="button" href="/en/" hreflang="en">English portfolio ↗</a>
-    <a class="button button-secondary" href="/vi/" hreflang="vi" lang="vi">Hồ sơ tiếng Việt ↗</a>
+    <a class="button" href="/en/" hreflang="en">English ↗</a>
+    <a class="button button-secondary" href="/vi/" hreflang="vi" lang="vi">Tiếng Việt ↗</a>
   </nav>
 </section>
 
