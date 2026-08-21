@@ -121,66 +121,6 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 pre { max-width: 100%; padding: 1rem; overflow-x: auto; border: 1px solid var(--line); background: var(--surface); }
 code { font-family: var(--mono); font-size: 0.9em; }
 
-/* Upstream banner styles load after this stylesheet; body-scoped selectors win. */
-body .kao-banner {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 2.75rem;
-  padding: 0 3.25rem 0 1rem;
-  border: 0;
-  border-bottom: 1px solid var(--accent);
-  background: var(--surface-raised);
-  background-image: none;
-  color: var(--ink);
-  font: 0.72rem/1.35 var(--mono);
-  letter-spacing: 0.06em;
-  text-align: center;
-  text-shadow: none;
-  text-transform: none;
-  overflow-wrap: anywhere;
-}
-
-body .kao-banner a {
-  color: var(--ink);
-  font: inherit;
-  letter-spacing: inherit;
-  text-decoration-line: underline;
-  text-decoration-color: var(--accent);
-  text-underline-offset: 0.2em;
-}
-
-body .kao-banner a:hover { color: var(--accent); }
-
-body .kao-banner-close {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: auto;
-  display: inline-grid;
-  place-items: center;
-  width: 2.75rem;
-  min-width: 2.75rem;
-  height: 2.75rem;
-  min-height: 2.75rem;
-  padding: 0;
-  border: 0;
-  border-left: 1px solid var(--line);
-  background: transparent;
-  color: var(--muted);
-  font: 1rem/1 var(--mono);
-  opacity: 1;
-  text-shadow: none;
-  transform: none;
-  cursor: pointer;
-}
-
-body .kao-banner-close:hover { background: var(--surface); color: var(--accent); }
-body .kao-banner a:focus-visible,
-body .kao-banner-close:focus-visible { outline: 2px solid var(--accent); outline-offset: -4px; }
-
 .site-footer { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-block: 1.5rem 2.5rem; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.85rem; }
 .site-footer a { display: inline-flex; align-items: center; min-height: 2.75rem; color: var(--muted); }
 

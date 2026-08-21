@@ -6,7 +6,7 @@ const root = dirname(dirname(fileURLToPath(import.meta.url)));
 const required = [
   'CNAME', '_config.yml', 'index.md', 'en/index.md', 'vi/index.md',
   'mov.md', 'suggested-filter.md', 'tm.md', 'tmv.md', '404.html',
-  '_layouts/default.html', '_layouts/page.html', 'assets/css/site.css',
+  '_layouts/default.html', '_layouts/page.html', 'assets/css/site.css', 'assets/js/banner.js',
   'assets/favicon.svg', 'robots.txt', 'DESIGN.md'
 ];
 const routes = new Map([
@@ -28,9 +28,10 @@ for (const [file, permalink] of routes) {
 }
 
 const layout = sources.get('_layouts/default.html');
-for (const token of ['theme-color', 'canonical', 'og:type', 'twitter:card', '| escape', 'site.repository', 'https://keepandroidopen.org/banner.js?size=minimal&animation=off']) {
+for (const token of ['theme-color', 'canonical', 'og:type', 'twitter:card', '| escape', 'site.repository', "'/assets/js/banner.js' | relative_url", '?size=minimal&animation=off']) {
   if (!layout.includes(token)) throw new Error(`missing layout metadata/accessibility token: ${token}`);
 }
+if (layout.includes('https://keepandroidopen.org/banner.js')) throw new Error('external banner script reference returned');
 if (layout.includes('Skip to content') || layout.includes('skip-link')) throw new Error('removed skip link returned');
 if (/href=["']www\./i.test([...sources.values()].join('\n'))) throw new Error('malformed href without scheme');
 
@@ -45,8 +46,17 @@ for (const canonicalToken of ['### 2026', '### 2021-2022', '[Morphe Patches]', '
 }
 
 const css = await readFile(join(root, 'assets/css/site.css'), 'utf8');
-for (const token of ['body .kao-banner', 'body .kao-banner a', 'body .kao-banner-close', 'min-height: 2.75rem', 'var(--accent)', 'var(--mono)', 'text-shadow: none', 'transform: none', 'opacity: 1']) {
-  if (!css.includes(token)) throw new Error(`missing synchronized banner style token: ${token}`);
+if (/\.kao-banner(?:-close)?\b/.test(css)) throw new Error('redundant banner override remains in site stylesheet');
+
+const banner = await readFile(join(root, 'assets/js/banner.js'), 'utf8');
+for (const token of [
+  'SPDX-License-Identifier: GPL-3.0-only', 'GNU General Public License v3.0',
+  'document.currentScript', 'getScriptParams', 'resolveLocale', 'localStorage',
+  'setInterval(updateBanner, 1000)', 'var cssNormal', 'var cssMini', 'var cssMinimal',
+  'var(--surface-raised,#15151d)', 'var(--accent,#ff3d91)', 'var(--mono,ui-monospace',
+  'width:2.75rem', 'height:2.75rem', 'text-shadow:none', 'transform:none'
+]) {
+  if (!banner.includes(token)) throw new Error(`missing self-hosted banner license, behavior, or style token: ${token}`);
 }
 
 const knownRoutes = new Set([...routes.values(), '/assets/favicon.svg', '/assets/css/site.css', '/sitemap.xml']);
@@ -64,4 +74,4 @@ for (const file of obsolete) {
 
 const emojiFiles = await readdir(join(root, 'emoji'));
 if (!emojiFiles.length) throw new Error('emoji compatibility assets missing');
-console.log('validated source files, bilingual link parity, banner styles, permalinks, metadata, internal routes, CNAME, and legacy cleanup');
+console.log('validated source files, self-hosted banner license/behavior/styles, bilingual parity, permalinks, metadata, internal routes, CNAME, and legacy cleanup');

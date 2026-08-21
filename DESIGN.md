@@ -24,7 +24,7 @@ Production direction for `gh.dh6k.vip`: personal, bilingual, dark-first knowledg
 - Row list: name left, technical label right; stacks on narrow screens.
 - Article: context navigation, label, title, description, prose. Long links wrap; code blocks scroll.
 - Footer: language, sitemap, and real GitHub source links.
-- Campaign banner: site surface, magenta divider, mono text, and 44px close target; upstream script remains unmodified.
+- Campaign banner: self-hosted GPL-3.0-derived `assets/js/banner.js`; its injected CSS owns site surface, magenta divider, mono text, and 44px close target.
 
 ## Interaction and accessibility
 
