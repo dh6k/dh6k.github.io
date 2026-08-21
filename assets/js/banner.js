@@ -190,8 +190,8 @@
     "}";
 
   var cssCommon =
-    ".kao-banner a{color:var(--ink,#f4f1f5);text-decoration:underline;text-decoration-color:var(--accent,#ff3d91);text-underline-offset:0.2em;}" +
-    ".kao-banner a:hover{color:var(--accent,#ff3d91);}" +
+    ".kao-banner a{color:var(--ink,#f4f1f5);text-decoration:none;}" +
+    ".kao-banner a:hover{color:var(--accent,#ff3d91);text-decoration:none;}" +
     ".kao-banner a:focus-visible,.kao-banner-close:focus-visible{outline:2px solid var(--accent,#ff3d91);outline-offset:-4px;}" +
     ".kao-banner-close{" +
       "position:absolute;" +

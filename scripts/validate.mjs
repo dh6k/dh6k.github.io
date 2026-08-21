@@ -71,6 +71,10 @@ for (const token of [
 ]) {
   if (!banner.includes(token)) throw new Error(`missing self-hosted banner license, behavior, or style token: ${token}`);
 }
+if (!banner.includes('.kao-banner a{color:var(--ink,#f4f1f5);text-decoration:none;}') ||
+    !banner.includes('.kao-banner a:hover{color:var(--accent,#ff3d91);text-decoration:none;}')) {
+  throw new Error('banner link underline returned');
+}
 if (banner.includes('Android will become a locked-down platform in')) throw new Error('obsolete banner sentence returned');
 
 const knownRoutes = new Set([...routes.values(), '/assets/favicon.svg', '/assets/css/site.css', '/sitemap.xml']);
