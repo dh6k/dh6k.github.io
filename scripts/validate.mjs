@@ -28,7 +28,7 @@ for (const [file, permalink] of routes) {
 }
 
 const layout = sources.get('_layouts/default.html');
-for (const token of ['theme-color', 'canonical', 'og:type', 'twitter:card', '| escape', 'site.repository', "'/assets/js/banner.js' | relative_url", '?size=minimal&animation=off']) {
+for (const token of ['theme-color', 'canonical', 'og:type', 'twitter:card', '| escape', 'site.repository', "'/assets/js/banner.js' | relative_url", '?size=minimal&animation=off&hidebutton=off']) {
   if (!layout.includes(token)) throw new Error(`missing layout metadata/accessibility token: ${token}`);
 }
 if (layout.includes('https://keepandroidopen.org/banner.js')) throw new Error('external banner script reference returned');
@@ -65,7 +65,8 @@ for (const token of [
   'document.currentScript', 'getScriptParams', 'resolveLocale', 'localStorage',
   'setInterval(updateBanner, 1000)', 'messageTemplate.split("{countdown}")',
   'messageContainer.appendChild(countdownSpan)', 'Math.max(0, rawDistance)',
-  'var cssNormal', 'var cssMini', 'var cssMinimal',
+  'var cssNormal', 'var cssMini', 'var cssMinimal', 'var cssNoClose',
+  '(showClose ? "" : cssNoClose)',
   'var(--surface-raised,#15151d)', 'var(--accent,#ff3d91)', 'var(--mono,ui-monospace',
   'font-size:1.2rem', 'font-weight:600', 'width:2.75rem', 'height:2.75rem', 'text-shadow:none', 'transform:none'
 ]) {

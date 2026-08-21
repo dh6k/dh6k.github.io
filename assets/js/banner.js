@@ -227,9 +227,12 @@
       "100%{box-shadow:0 0 0 0 rgba(255,61,145,0)}" +
     "}";
 
+  var cssNoClose = ".kao-banner{padding-right:1rem;}";
+
   var style = document.createElement("style");
   style.textContent = (size === "mini" ? cssMini : size === "minimal" ? cssMinimal : cssNormal)
     + (params.animation === "off" ? "" : cssKaoPulse)
+    + (showClose ? "" : cssNoClose)
     + cssCommon;
   document.head.appendChild(style);
 
