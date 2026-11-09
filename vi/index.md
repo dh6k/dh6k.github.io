@@ -28,6 +28,7 @@ Tôi là dh6k, sinh viên [Học viện Công nghệ Bưu chính Viễn thông](
 
 ## Bài viết
 
+- [dh6k's blog](https://blog.dh6k.vip)
 - [Blogspot](https://dh6k.blogspot.com)
 - [Hashnode](https://dh6k.hashnode.dev)
 

@@ -36,6 +36,7 @@ permalink: /
     <p class="eyebrow">03 / WRITING</p>
     <h2 id="writing-title">Blogs</h2>
     <ul class="row-list">
+      <li><a href="https://blog.dh6k.vip">dh6k's blog</a><span class="tech-label">BLOG</span></li>
       <li><a href="https://dh6k.blogspot.com">Blogspot</a><span class="tech-label">BLOG</span></li>
       <li><a href="https://dh6k.hashnode.dev">Hashnode</a><span class="tech-label">BLOG</span></li>
     </ul>

@@ -27,6 +27,7 @@ I’m dh6k, a student at the [Posts and Telecommunications Institute of Technolo
 
 ## Writing
 
+- [dh6k's blog](https://blog.dh6k.vip)
 - [Blogspot](https://dh6k.blogspot.com)
 - [Hashnode](https://dh6k.hashnode.dev)
 
