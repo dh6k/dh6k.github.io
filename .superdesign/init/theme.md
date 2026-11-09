@@ -2,7 +2,7 @@
 
 ## Compact token summary
 
-- Background: `#0b0b0f`; panel: `#121219`; foreground: `#f4f1f5`; muted: `#a6a1ab`; accent: `#ff3d91`; border: `#292631`.
+- Background: `#17173E`; panel: `#22224F`; foreground: `#F1F3FA`; muted: `#918DC5`; accent: `#F28FC7`; border: `#353267`.
 - Type: system UI body at `16px/1.7`; monospace technical labels; fluid display headings.
 - Container: `1120px`; article: `760px`; horizontal padding: `24px`.
 - Breakpoint: `640px`; reduced-motion disables smooth behavior.

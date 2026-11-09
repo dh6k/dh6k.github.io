@@ -4,7 +4,7 @@ Production direction for `gh.dh6k.vip`: personal, bilingual, dark-first knowledg
 
 ## Foundations
 
-- Near-black `#0b0b0f`, warm white `#f4f1f5`, muted gray `#aaa5af`, magenta `#ff3d91`.
+- Deep indigo `#17173E`, cool white `#F1F3FA`, lavender `#918DC5`, soft pink `#F28FC7`.
 - System UI text; system monospace for labels and metadata.
 - Spacing scale: 4, 8, 12, 16, 24, 32, 48, 72, 96px.
 - Shell width 1120px; article width 760px; gutters 16–24px.
